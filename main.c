@@ -7,7 +7,7 @@
 #include <raymath.h>
 
 #define NOB_IMPLEMENTATION
-#include "nob.h"
+#include <nob.h>
 
 #define MIN_X -20
 #define MAX_X 20
