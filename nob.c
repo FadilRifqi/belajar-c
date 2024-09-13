@@ -6,7 +6,7 @@ int main(int argc, char **argv) {
     Nob_Cmd cmd = {0};
     nob_cmd_append(&cmd,"cc");
     nob_cmd_append(&cmd,"-Wall","-Wextra","-ggdb");
-    nob_cmd_append(&cmd,"-o","main");
+    nob_cmd_append(&cmd,"-o","build/main");
     nob_cmd_append(&cmd,"main.c");
     nob_cmd_append(&cmd,"-lraylib", "-lm");
     if(!nob_cmd_run_sync(cmd)) return 1;
