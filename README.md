@@ -21,10 +21,10 @@ first compile the nob.c into build/nob
 cc -o build/nob nob.c
 ```
 
-then run
+then compile the main.c
 
 ```sh
-build/nob && build/main
+build/nob
 ```
 
 This will compile the main.c file and link it with the necessary libraries (raylib and libm).
@@ -34,7 +34,7 @@ This will compile the main.c file and link it with the necessary libraries (rayl
 After building the project, you can run the executable:
 
 ```sh
-./main
+build/main
 ```
 
 #### Features
