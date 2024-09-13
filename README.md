@@ -42,6 +42,6 @@ After building the project, you can run the executable:
 - `update_means()`: Updates the means of the clusters based on the current points.
 - `project_sample_to_screen()`: Projects a sample point to screen coordinates.
 
-#### License
+#### Credit
 
-This project is licensed under the MIT License. See the nob.h file for more details.
+This project utilizes the `nob` library. For more information, please visit the [nobuild repository](https://github.com/tsoding/nobuild) by tsoding.
