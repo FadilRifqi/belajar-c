@@ -15,8 +15,16 @@
 
 To build the project, run the following command:
 
+first compile the nob.c into build/nob
+
 ```sh
-./nob
+cc -o build/nob nob.c
+```
+
+then run
+
+```sh
+build/nob && build/main
 ```
 
 This will compile the main.c file and link it with the necessary libraries (raylib and libm).
